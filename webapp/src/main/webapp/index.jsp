@@ -32,6 +32,5 @@
   </div>
 
    <h1> Thankyou, Happy Learning </h1>
-   <h1> Aditya is succeding in DevOps </h1>
   
 </form>
