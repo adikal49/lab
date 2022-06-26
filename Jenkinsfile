@@ -1,15 +1,15 @@
 def img
 pipeline {
     environment {
-        registry = "kss7/python-jenkins"
-        registryCredential = 'docker-hub-login'
+        registry = "adicop49/python-flask-ui"
+        registryCredential = 'dockerhub'
         dockerImage = ''
     }
     agent any
     stages {
         stage('checkout') {
             steps {
-                git 'https://github.com/kss7/SimpleFlaskUI.git'
+                git branch: 'Python-Flask-UI', url: 'https://github.com/adikal49/lab.git'
             }
         }
 
